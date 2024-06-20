@@ -1,0 +1,101 @@
+body{
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.head {
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+.intro {
+    font-size: 20px;
+}
+
+.mid{
+    text-align: center;
+}
+
+.text-margin-top {
+    margin-top: 50px;
+}
+
+#input, #output{
+    width: 350px;
+    height: 35px;
+    font-size: 25px;
+    border-radius: 7px;
+    resize: none;
+    font-family: Arial, sans-serif;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.button{
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    width: 225px;
+    height: 35px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 250ms;
+}
+
+/* styling warna button */
+.green {
+background-color: #20C94B;
+color: #ffffff;
+}
+
+.red {
+    background-color: #d41a1a;
+    color: #ffffff;
+}
+
+.grey {
+    background-color: #8e8e8e;
+    color: #ffffff;
+}
+
+.green:hover {
+    background-color: #1da23e;
+    color: #ffffff;
+}
+
+.red:hover {
+    background-color: #b31717;
+    color: #ffffff;
+}
+
+.grey:hover {
+    background-color: #6d6d6d;
+    color: #ffffff;
+}
+
+.calculate{
+    resize: none;
+    background-color: #ffffff;
+    width: 350px;
+    height: 70px;
+    border-radius: 7px;
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+}
+
+.subject-info {
+    font-family: math;
+    font-weight: bold;
+}
+
+

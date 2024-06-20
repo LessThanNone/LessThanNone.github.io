@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charless Konversi Suhu</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="head">Website Konversi Suhu</h1>
+    </header>
+
+    <main>
+        <!-- section inroduction -->
+        <section class="intro mid">
+            <p>
+                Masukkan suhu derajat ke kotak dibawah, lalu klik tombol konversi untuk mendapatkan hasil konversi dalam bentuk Celcius (&deg;C) ataupun Fahrenheit (&deg;F).
+            </p>
+        </section>
+
+        <!-- Section Celcius -->
+        <section class="mid">
+            <header>
+                <h3 class="text-margin-top" id="celcius-text">Celcius (&deg;C):</h3>
+            </header>
+
+            <section>
+                <input type="number" id="input" name="celcius" placeholder="Masukkan suhu">
+
+                <section class="button-container">
+                    <button class="button green" id="convert-button">Convert</button>
+                    <button class="button red" id="reset-button">Reset</button>
+                    <button class="button grey" id="reverse-button">Reverse</button>
+                </section>
+            </section>
+        </section>
+        
+
+        <section class="mid">
+            <!-- Section Fahrenheit -->
+            <section>
+                <header>
+                    <h3 class="text-margin-top" id="fahrenheit-text">Fahrenheit (&deg;F):</h3>
+                </header>
+    
+                <section>
+                    <textarea id="output" readonly></textarea>
+                </section>
+            </section>
+    
+            <!-- Section Calculate -->
+            <section>
+                <header>
+                    <h3 class="text-margin-top">Convertion Calculate: </h3>
+                </header>
+    
+                <section>
+                    <textarea class="calculate" id="calculate-output" readonly></textarea>
+                </section>
+            </section>
+        </section>
+            
+        </section>
+        
+        <hr>
+
+        <!-- Section Formula -->
+        <section id="formula-section" hidden>
+            <header>
+                <h2 id="formula-head">Cara konversi dari Celcius (&deg;C) ke Fahrenheit (&deg;F)</h2>
+            </header>
+
+            <p id="formula-content">Suhu <span class="subject-info">S</span> dalam derajat Celcius (&deg;C) sama dengan suhu <span class="subject-info">S</span> dalam derajat Fahrenheit (&deg;F)</p>
+            <p id="formula-rumus">
+                <span class="subject-info">S</span><sub>(&deg;F)</sub> = (<span class="subject-info">S</span><sub>(&deg;C)</sub> x 9/5) + 32
+            </p>
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
